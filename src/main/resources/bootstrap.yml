@@ -15,14 +15,14 @@ spring:
 #              name: myservice
 #              profiles: development
         git:
-          uri: https://github.com/hellxz/SpringCloudlearn
+          uri: https://github.com/Berg-ctrl/ConfigServer.git
           searchPaths: config-repo
           username: username  #账号密码写真实的快一些我觉得，不使用也能访问有点慢
           password: password
-encrypt:
-  key: hellxz
-  key-store:
-    location: config-server.keystore
-    alias: config-server
-    password: hellxz
-    secret: hellxz
+#encrypt:
+#  key: hellxz
+#  key-store:
+#    location: config-server.keystore
+#    alias: config-server
+#    password: hellxz
+#    secret: hellxz
